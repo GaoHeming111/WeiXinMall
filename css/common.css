@@ -1,0 +1,14 @@
+*{ padding: 0; margin: 0; list-style: none;font-family: "微软雅黑",'宋体';color: #333;}
+body{ background: #ebebeb;}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+#footer{ position: fixed; left:0; bottom: 0; background: #f9f9f9;width: 100%;z-index: 999; border-top:1px solid #efefef;}
+#footer ul{ width: 100%; padding-left: 4%;}
+#footer ul li{display: inline-block;width: 23%; text-align: center; padding-top:5px;}
+#footer ul li p{font-size: 12px; margin: 0; line-height: normal; padding-top:3px;}
+#footer ul li svg{font-size: 22px;}
+#footer .active{ color: #e8004c; fill:#e8004c;}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>购物车</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/mui.min.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/iconfont.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/default.css" />
+    <link  rel="stylesheet" href="css/common.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a href="kind.html"><p style="float: left; padding-left: 5px; padding-top:3px;"><span class="mui-icon mui-icon-back"></span></p></a>
+	    <h1 class="mui-title" style="font-size: 14px;">
+	    	购物车(<span class="num">2</span>)
+	    </h1>
+	</header>
+	<div class="mui-content">
+	    <div class="shopping_car">
+	    	<div class="allPrice-wrap">
+		    	<div class="mui-content">
+				    <div class="mui-row">
+				        <div class="mui-col-sm-4 mui-col-xs-4">
+			                <div class="mui-input-row mui-checkbox mui-left" style="font-size: 14px;">
+								<label>全选</label>
+							  	<input name="checkbox1" value="Item 1" type="checkbox" class="allselect">
+							</div>
+				        </div>
+				        <div class="mui-col-sm-6 mui-col-xs-6">           
+							 <p  style="font-size: 14px;">合计：<span class="allPrice"></span></p>
+				        </div>
+				        <div class="mui-col-sm-2 mui-col-xs-2">
+				            <input type="button" value="结算" class="Button"/>
+				        </div>
+				    </div>
+				</div>
+	    	</div>
+	    	<div class="goods_wrap">
+	    		<div class="title">
+	    			<div class="left">
+    					<div class="mui-input-row mui-checkbox mui-left">
+							<label style="font-size: 14px;">完美婚纱旗舰店</label>
+						  	<input name="checkbox1" value="Item 1" type="checkbox">
+						</div>
+	    				<a class="mui-icon mui-icon-arrowright"></a>
+	    			</div>
+	    			<div class="right">
+	    				<a href="">领券</a>
+	    				<a href="">编辑</a>
+	    			</div>
+	    		</div>
+	    		<div class="contents">
+	    			<div class="contents_num">
+	    				<div class="mui-content">
+						    <div class="mui-row">
+						        <div class="mui-col-sm-4 mui-col-xs-4">
+						            <li class="mui-table-view-cell">
+						                <div class="mui-input-row mui-checkbox mui-left">
+											<label>
+												<img src="img/goods_img.jpg" alt="" title="">
+											</label>
+										  	<input name="checkbox1" value="Item 1" type="checkbox">
+										</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-5 mui-col-xs-5">
+						            <li class="mui-table-view-cell">
+								        <div class="shopping_info">
+			    							<a href="" class="name">2017年最新款xxxxx婚纱结婚韩版设计</a>
+			    							<p>
+			    								<span class="color">颜色：白色</span>
+			    								<span class="size">尺码：均码</span>
+			    							</p>
+			    							<div class="amount">
+			    								<span class="up">+</span>
+			    								<input type="text" value="1" class="goods_num" />
+			    								<span class="down">-</span>
+			    							</div>
+			    						</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-3 mui-col-xs-3">
+						            <li class="mui-table-view-cell">
+						                <div class="price">
+	    									<em>￥100.00</em>
+	    								</div>
+	    								<div class="dele">
+	    									<a href="#" class="mui-icon mui-icon-trash"></a>
+	    								</div>
+						            </li>
+						        </div>
+						    </div>
+						</div>
+	    				<div class="mui-content">
+						    <div class="mui-row">
+						        <div class="mui-col-sm-4 mui-col-xs-4">
+						            <li class="mui-table-view-cell">
+						                <div class="mui-input-row mui-checkbox mui-left">
+											<label>
+												<img src="img/goods_img.jpg" alt="" title="">
+											</label>
+										  	<input name="checkbox1" value="Item 1" type="checkbox">
+										</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-5 mui-col-xs-5">
+						            <li class="mui-table-view-cell">
+								        <div class="shopping_info">
+			    							<a href="" class="name">2017年最新款xxxxx婚纱结婚韩版设计</a>
+			    							<p>
+			    								<span class="color">颜色：白色</span>
+			    								<span class="size">尺码：均码</span>
+			    							</p>
+			    							<div class="amount">
+			    								<span class="up">+</span>
+			    								<input type="text" value="1" class="goods_num" />
+			    								<span class="down">-</span>
+			    							</div>
+			    						</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-3 mui-col-xs-3">
+						            <li class="mui-table-view-cell">
+						                <div class="price">
+	    									<em>￥100.00</em>
+	    								</div>
+	    								<div class="dele">
+	    									<a href="#" class="mui-icon mui-icon-trash"></a>
+	    								</div>
+						            </li>
+						        </div>
+						    </div>
+						</div>
+						<div class="mui-content">
+						    <div class="mui-row">
+						        <div class="mui-col-sm-4 mui-col-xs-4">
+						            <li class="mui-table-view-cell">
+						                <div class="mui-input-row mui-checkbox mui-left">
+											<label>
+												<img src="img/goods_img.jpg" alt="" title="">
+											</label>
+										  	<input name="checkbox1" value="Item 1" type="checkbox">
+										</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-5 mui-col-xs-5">
+						            <li class="mui-table-view-cell">
+								        <div class="shopping_info">
+			    							<a href="" class="name">2017年最新款xxxxx婚纱结婚韩版设计</a>
+			    							<p>
+			    								<span class="color">颜色：白色</span>
+			    								<span class="size">尺码：均码</span>
+			    							</p>
+			    							<div class="amount">
+			    								<span class="up">+</span>
+			    								<input type="text" value="1" class="goods_num" />
+			    								<span class="down">-</span>
+			    							</div>
+			    						</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-3 mui-col-xs-3">
+						            <li class="mui-table-view-cell">
+						                <div class="price">
+	    									<em>￥100.00</em>
+	    								</div>
+	    								<div class="dele">
+	    									<a href="#" class="mui-icon mui-icon-trash"></a>
+	    								</div>
+						            </li>
+						        </div>
+						    </div>
+						</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="goods_wrap">
+	    		<div class="title">
+	    			<div class="left">
+    					<div class="mui-input-row mui-checkbox mui-left">
+							<label style="font-size: 14px;">完美婚纱旗舰店</label>
+						  	<input name="checkbox1" value="Item 1" type="checkbox">
+						</div>
+	    				<a class="mui-icon mui-icon-arrowright"></a>
+	    			</div>
+	    			<div class="right">
+	    				<a href="">领券</a>
+	    				<a href="">编辑</a>
+	    			</div>
+	    		</div>
+	    		<div class="contents">
+	    			<div class="contents_num">
+	    				<div class="mui-content">
+						    <div class="mui-row">
+						        <div class="mui-col-sm-4 mui-col-xs-4">
+						            <li class="mui-table-view-cell">
+						                <div class="mui-input-row mui-checkbox mui-left">
+											<label>
+												<img src="img/goods_img.jpg" alt="" title="">
+											</label>
+										  	<input name="checkbox1" value="Item 1" type="checkbox">
+										</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-5 mui-col-xs-5">
+						            <li class="mui-table-view-cell">
+								        <div class="shopping_info">
+			    							<a href="" class="name">2017年最新款xxxxx婚纱结婚韩版设计</a>
+			    							<p>
+			    								<span class="color">颜色：白色</span>
+			    								<span class="size">尺码：均码</span>
+			    							</p>
+			    							<div class="amount">
+			    								<span class="up">+</span>
+			    								<input type="text" value="1" class="goods_num" />
+			    								<span class="down">-</span>
+			    							</div>
+			    						</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-3 mui-col-xs-3">
+						            <li class="mui-table-view-cell">
+						                <div class="price">
+	    									<em>￥100.00</em>
+	    								</div>
+	    								<div class="dele">
+	    									<a href="#" class="mui-icon mui-icon-trash"></a>
+	    								</div>
+						            </li>
+						        </div>
+						    </div>
+						</div>
+						<div class="mui-content" style="margin-bottom:100px;">
+						    <div class="mui-row">
+						        <div class="mui-col-sm-4 mui-col-xs-4">
+						            <li class="mui-table-view-cell">
+						                <div class="mui-input-row mui-checkbox mui-left">
+											<label>
+												<img src="img/goods_img.jpg" alt="" title="">
+											</label>
+										  	<input name="checkbox1" value="Item 1" type="checkbox">
+										</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-5 mui-col-xs-5">
+						            <li class="mui-table-view-cell">
+								        <div class="shopping_info">
+			    							<a href="" class="name">2017年最新款xxxxx婚纱结婚韩版设计</a>
+			    							<p>
+			    								<span class="color">颜色：白色</span>
+			    								<span class="size">尺码：均码</span>
+			    							</p>
+			    							<div class="amount">
+			    								<span class="up">+</span>
+			    								<input type="text" value="1" class="goods_num" />
+			    								<span class="down">-</span>
+			    							</div>
+			    						</div>
+						            </li>
+						        </div>
+						        <div class="mui-col-sm-3 mui-col-xs-3">
+						            <li class="mui-table-view-cell">
+						                <div class="price">
+	    									<em>￥100.00</em>
+	    								</div>
+	    								<div class="dele">
+	    									<a href="#" class="mui-icon mui-icon-trash"></a>
+	    								</div>
+						            </li>
+						        </div>
+						    </div>
+						</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	   		<!--footer开始-->
+		<div id="footer">
+			<ul>
+				<li>
+					<a href="index.html">
+						<svg class="icon " aria-hidden="true">
+						  <use xlink:href="#icon-zhuye"></use>
+						</svg>
+						<p >首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="kind.html">
+						<svg class="icon" aria-hidden="true">
+						  <use xlink:href="#icon-fenlei1"></use>
+						</svg>
+						<p>分类</p>
+					</a>
+				</li>
+				<li>
+					<a href="car.html">
+						<svg class="icon  active" aria-hidden="true">
+						  <use xlink:href="#icon-gouwuche"></use>
+						</svg>
+						<p  class="active">购物车</p>
+					</a>
+				</li>
+				<li>
+					<a href="center.html">
+						<svg class="icon" aria-hidden="true">
+						  <use xlink:href="#icon-wo"></use>
+						</svg>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+<!--footer结束-->
+	</div>
+</body>
+</html>

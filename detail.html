@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/mui.min.js"></script>
+     <script src="js/iconfont.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+    </script>
+    <script type="text/javascript" src="js/default.js"></script>
+</head>
+<body style="background:white">
+<header class="mui-bar mui-bar-nav Menu">
+	    <div class=" Back">
+	    	<a href="kind.html" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left whi"></a>
+	    </div>
+	    <div class="Car">
+	    	<img src="img/car1.png" class="car" />
+	    </div>
+	    <div class="Back Sheng">
+	    	<img src="img/sheng.png" class="sheng" />
+	    </div>
+</header>
+<header id="trad" class="trad mui-bar mui-bar-nav mui-bar-transparent" data-top='20' data-offset='150' data-duration='12' data-scrollby=".mui-scroll-wrapper">
+	<ul>
+		<li><a href="#baby1" style="color: #F83843;" id="baby" onclick="change3()">宝贝</a></li>
+		<li><a href="#advice" id="ad" onclick="change1()">评价</a></li>
+		<li><a href="#detail" id="tent"  onclick="change2()">详情</a></li>
+	</ul>
+</header>
+<div class="mui-slider gundong">
+	<a name="baby1"></a>
+  <div class="mui-slider-group mui-slider-loop">
+    <!--支持循环，需要重复图片节点-->
+    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/adv3.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/adv1.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/adv2.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/adv3.jpg" /></a></div>
+    <!--支持循环，需要重复图片节点-->
+    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/adv1.jpg" /></a></div>
+  </div>
+</div>
+<!--内容部分-->
+<div class="cont">
+	<div class="tit">
+		<img src="img/under.png" style="width:20px; position: absolute;" />
+		<p>线下门店有售</p>
+		<h5>熊孩子 什锦蔬菜干90g 9种蔬菜综合蔬菜干混合果蔬干休闲食品零食</h5>
+		<dl>
+			<dt><img src="img/share.png" style="width: 20px; position: absolute;"></dt>
+			<dd>分享</dd>
+		</dl>
+		<span>￥27</span>
+		<ul class="price">
+			<li>快递：14.00</li>
+			<li style=" float:left; margin-left: 25%;">月销68笔</li>
+			<li style=" float: right; margin-right: 5%;">广东广州</li>
+		</ul>
+		<a name="advice"></a>
+		<ul class="prove">
+			<li>
+				<div>
+					<img src="img/gou.png" />
+				</div>
+				<p>正品保证</p>
+			</li>
+			<li class="li1">
+				<div>
+					<img src="img/gou.png" />
+				</div>
+				<p class="p1">极速退款</p>
+			</li>
+			<li class="li2">
+				<div>
+					<img src="img/gou.png" />
+				</div>
+				<p class="p2">七天退换</p>
+			</li>
+			<li>
+				<span class="mui-icon mui-icon-arrowright"></span>
+			</li>
+		</ul>
+		<ul class="prove1">
+			<p style="font-size:10px; position: absolute; left: 10px; top:8px;">领取优惠券~</p>
+			<span class="mui-icon mui-icon-arrowright" style="color:#ccc; position: absolute; top:7px; left: 89%;"></span>
+		</ul>
+		<ul class="prove2">
+			<p style="font-size:10px; position: absolute; left: 10px; top:8px;">购买可得到200积分~</p>
+			<span class="mui-icon mui-icon-arrowright" style="color:#ccc; position: absolute; top:7px; left: 89%;"></span>
+		</ul>
+	</div>
+	<div class="para">
+		<ul class="prove3">
+			<p style="font-size:12px; font-weight: bolder; position: absolute; left: 10px; top:8px;">选择数量,种类</p>
+			<span class="mui-icon mui-icon-arrowright" style="color:#ccc; position: absolute; top:7px; left: 89%;"></span>
+		</ul>
+		<ul class="prove4">
+			<p style="font-size:12px; font-weight: bolder;  position: absolute; left: 10px; top:8px;">产品参数</p>
+			<span class="mui-icon mui-icon-arrowright" style="color:#ccc; position: absolute; top:7px; left: 89%;"></span>
+		</ul>
+	</div>
+	<div class="evaluation">
+		<img src="img/passage.png">
+		<p class="p1">评价</p>
+		<h5 style="position: absolute; left: 10px; top: 20px; font-size: 12px;">宝贝评价（24）</h5>
+		<p class="p2">很好吃的，也很有营养，很不错的一家店，日后会常关注，很好吃的，也很有营养，有需要的会再来看.</p>
+		<p class="date">2017-4-26  种类：A；型号B</p>
+		<div class="more">
+			查看全部评价
+		</div>
+	</div>
+	<div class="details">
+		<img src="img/pic.png" style="position: absolute; width: 20px; left: 43%;">
+		<p style="position: absolute; left:49%;">详情</p>
+		<ul>
+			<li><img src="img/detailsPic1.jpg"></li>
+			<a name="detail"></a>
+			<li><img src="img/detailsPic2.jpg"></li>
+			<li><img src="img/detailsPic3.jpg"></li>
+			<li><img src="img/detailsPic4.jpg"></li>
+			<li style="color:#CCCCCC; text-align: center;">亲 已经到底了呦！</li>
+		</ul>
+	</div>
+
+</div>
+
+</body>
+</html>
